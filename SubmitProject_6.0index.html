@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 6.0 MHS 2023 Forms For Computer Science</title>
+    </head>
+    <body>
+        <div>
+            <form action="mailto:kritvald11@gmail.com, cvaldehueza@student.mamkschools.org" method="POST">
+                <label for="firstName">Name:</label>
+                <input type="text" id="firstName" name="firstName" required /><br />
+                <br />
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required /><br />
+                <br />
+                <label for="username">Username/Email:</label>
+                <input type="email" id="username" name="username" required /><br />
+                <br />
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required /><br />
+                <br />
+                <label for="DOB">Date of Birth:</label>
+                <input type="date" id="DOB" name="DOB" required /><br />
+                <br />
+                <label for="class">Favorite Class:</label>
+                <select id="class" name="class">
+                    <option value="Computer Science">Exploring Computer Science</option>
+                    <option value="Math">Math</option>
+                    <option value="Music">Music</option>
+                    <option value="Science">Science</option></select
+                ><br />
+
+                <label for="Level">How Good Are You At it?:</label>
+                <input type="radio" id="Level1" name="Level" value="Pretty Good" />
+                <label for="Level1">Pretty Good</label>
+                <input type="radio" id="Level2" name="Level" value="Very Good" />
+                <label for="Level2">Very Good</label>
+                <input type="radio" id="Level3" name="Level" value="Decent" />
+                <label for="Level3">Decent</label><br />
+                <br />
+                <label for="comments">Comments:</label>
+                <div style="display: inline-block; vertical-align: top">
+                    <textarea id="comments" name="comments" style="width: 100%"></textarea>
+                </div>
+                <br />
+                <br />
+                <label for="Q/A">How Do you Feel about This Form?</label>
+                <input type="checkbox" id="response1" name="response" value="1" />
+                <label for="response1">Happy</label>
+                <input type="checkbox" id="response2" name="response" value="2" />
+                <label for="response2">Confused</label>
+                <input type="checkbox" id="response3" name="response" value="3" />
+                <label for="response3">Other?</label>
+                <!-- continue for more and above if need more-->
+
+                <br />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+</html>
