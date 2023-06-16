@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+h1,
+h2 {
+    text-align: center;
+    color: hotpink;
+}
+p {
+    color: chocolate;
+}
+p.Important_Class {
+    color: royalblue;
+}
+a.Roblox:hover {
+    color: royalblue;
+}
+a.Roblox:active {
+    color: magenta;
+    background-color: transparent;
+    text-decoration: none;
+}
