@@ -1,0 +1,20 @@
+body{
+    background-color: beige;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input.text{
+    font-family:cursive;
+}
+class.FirstName{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+class.LastName{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input.submit:hover {
+    color:blue;
+       background-color:red;
+ 
+ }
